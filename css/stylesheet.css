@@ -1,7 +1,37 @@
-.lol
-{
-	background-color: red;
-	/* margin-right: 15px; */
-	/* padding: 0px;*/
+body {
+  background-color: #b8b8b8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo-main {
+  color: #ffffff;
+  font-size: calc(1.2em + 13vw);
+  text-align: center;
+  text-shadow: 10px 9px 0px #000000;
+  padding-top: 25vh;
+}
+
+@media (min-width: 50em) {
+	.logo-main {
+		font-size: 200px;
+	}
+}
+
+.logo-main:hover {
+  cursor: default;
+}
+
+.fh {
+	height: 100vh;
+}
+
+.fw {
+	width: 100vw;
+}
+
+.subhead {
+	font-size: calc(16px + 0.5vw);
 	text-align: center;
+	color: white;
+	font-style: italic;
 }
