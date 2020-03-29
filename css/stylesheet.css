@@ -30,8 +30,9 @@ body {
 }
 
 .subhead {
-	font-size: calc(16px + 0.5vw);
+	font-size: calc(16px + 5vw);
 	text-align: center;
 	color: white;
 	font-style: italic;
+	text-shadow: 3px 2px 0px #000000;
 }
